@@ -59,6 +59,7 @@ public class Welcome
                 case 0 -> System.out.println("User Registered");
                 case 1 -> System.out.println("User Already Exists");
             }
+            new UserView(email).home();
         }
         else
         {
